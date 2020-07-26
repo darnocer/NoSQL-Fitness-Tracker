@@ -10,10 +10,13 @@ html,
 body,
 .wrapper {
   height: 100%;
+  overflow:hidden;
+
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 nav {
@@ -97,7 +100,10 @@ input {
 
 .wrapper {
   background-color: #f2f8ff;
+  background-image: url("/../images/bg.png") !important;
+  background-repeat: repeat;
   padding-bottom: 100px;
+
 }
 
 .card.m-auto,
@@ -434,4 +440,40 @@ form > button {
     opacity: 0;
     right: -320px;
   }
+}
+
+/* Custom CSS */
+
+.navbar {
+  background-color: #FF2C9A;
+}
+
+
+
+.blue-bg {
+  background-color: #23F3FF !important;
+  color: white !important;
+}
+
+.yellow-bg {
+background-color: #FFFF20 !important;
+
+}
+
+.retro, .navbar-brand {
+  font-family: 'Audiowide', cursive;
+  font-size: 3rem !important;
+  color: #C6ACF5;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.btn {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.card {
+  min-width: 500px !important;
 }
