@@ -3,7 +3,7 @@
 ![last commit](https://img.shields.io/github/last-commit/darnocer/NoSQL-Fitness-Tracker?style=flat-square) ![license badge](https://img.shields.io/github/license/darnocer/NoSQL-Fitness-Tracker?style=flat-square)
 
 
-### URL: n/a
+### URL: https://fitness-tracker-with-nosql.herokuapp.com/
 
 ## Description
 
@@ -36,7 +36,7 @@ navigate to http//:localhost:3000/
 1. Open an instance of GitBash and run `mongod` prior to executing other commands
 2. Open another GitBash instance, and run `mongo` to enter MongoDB
 3. `db` will refer to the current datbase (by default is `test`)
-4. `use workout` to switch to db (will create if doesn't exist)
+4. `use workouts` to switch to the db (will create if doesn't exist)
 5. To seed, run `npm run seed`
 ```
 
