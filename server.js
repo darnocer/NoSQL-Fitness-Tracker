@@ -15,13 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// mongoDB connection
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouts", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
-
-var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/workouts";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workouts";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
