@@ -1,3 +1,6 @@
+<h1><i>This repo is no longer maintained</i></h1>
+
+
 # Fitness Tracker
 
 ![last commit](https://img.shields.io/github/last-commit/darnocer/NoSQL-Fitness-Tracker?style=flat-square) ![license badge](https://img.shields.io/github/license/darnocer/NoSQL-Fitness-Tracker?style=flat-square)
